@@ -1,13 +1,5 @@
 import java.util.ArrayList;
 
-/**
- * 
- */
-
-/**
- * @author Brian
- *
- */
 public final class Reseau {
 
 	private static Reseau reseau = null;
@@ -61,6 +53,12 @@ public final class Reseau {
 		return Reseau.reseau;
 	}
 
+	/*METHODES A IMPLEMENTER
+	 * 
+	 * PlacerCapteur()
+	 * 		S'assure bien que le capteur est placé sur les deux sens de la route
+	 */
+	
 	/**
 	 * @param args
 	 */

@@ -1,13 +1,5 @@
 import java.util.ArrayList;
 
-/**
- * 
- */
-
-/**
- * @author Brian
- *
- */
 public class Jonction {
 
 	private ArrayList<Jonction> jonctions;

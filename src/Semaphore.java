@@ -1,11 +1,5 @@
-/**
- * 
- */
+import java.util.ArrayList;
 
-/**
- * @author Brian
- *
- */
 public abstract class Semaphore {
 
 	private int sens;

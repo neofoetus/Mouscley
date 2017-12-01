@@ -1,24 +1,21 @@
 import java.util.ArrayList;
 
-/**
- * 
- */
-
-/**
- * @author Brian
- *
- */
 public class Segment {
 
 	private int longueur;
 	private ArrayList<Semaphore> semaphores;
 	private ArrayList<Capteur> capteurs;
+	
+	//pas besoin de ça normalement
 	private Jonction jA;
 	private Jonction jB;
+	
+	//eske ça sert vraiment de nommer nos segments?
 	public char id;
 	private static char lettre = 'A';
 	
-	/**
+	/*METHODES A IMPLEMENTER
+	 * 
 	 * 
 	 */
 	public Segment() {
